@@ -5,10 +5,10 @@
 - Updated Growtopia's protocol integrity to latest version
 
 # Note
-This is a fork and a modified version of [enet](https://github.com/lsalzman/enet).
-Original fork ENet UDP Socks5 Support Repo -> [zKevz](https://github.com/zKevz/enet-socks5)
-Because the original [enet](https://github.com/lsalzman/enet) library doesn't support [SOCKS5](https://www.rfc-editor.org/rfc/rfc1928) protocol, we decided to add a support of it.
-Not only [SOCKS5](https://www.rfc-editor.org/rfc/rfc1928), we also add a support for Growtopia's Ubisoft Protocol, for both client/server.
+* This is a fork and a modified version of [enet](https://github.com/lsalzman/enet).
+* Original fork ENet UDP Socks5 Support Repo -> [zKevz](https://github.com/zKevz/enet-socks5)
+* Because the original [enet](https://github.com/lsalzman/enet) library doesn't support [SOCKS5](https://www.rfc-editor.org/rfc/rfc1928) protocol, we decided to add a support of it.
+* Not only [SOCKS5](https://www.rfc-editor.org/rfc/rfc1928), we also add a support for Growtopia's Ubisoft Protocol, for both client/server.
 
 # Usage
 To enable [SOCKS5](https://www.rfc-editor.org/rfc/rfc1928) protocol, you will need to write some code just below enet_host_create
